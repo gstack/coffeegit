@@ -1,0 +1,35 @@
+Coffeegit:
+  webPort: 8080
+
+  ignoreAdmin: false
+  ignorePublic: true
+
+  sitename: 't3h lab5 $h'
+  sessionSecret: 'whatup'
+
+  registration: false
+
+  #mysql_host: '
+  #mysql_pass: ''
+  #mysql_db: ''
+  db_str: 'mysql://yourusername:yourpassword@yourmysqlhost:3306/yourdbname'
+
+Auth:
+  # preconfigured auths to copy to db
+  plain:
+    'admin': {
+      fullname: 'admin'
+      user: 'admin'
+      password: 'coffeegit'
+      email: 'admin@whoever'
+    }
+
+Git:
+  # folder with all the repos
+  repoDir: '/home/git/projects'
+  cgitrepos: './cgitrepos'
+
+  # more repos. (dir)
+  repos: [
+
+  ]

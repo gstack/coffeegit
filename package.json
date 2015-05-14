@@ -1,0 +1,36 @@
+{
+  "name": "coffeegit",
+  "version": "0.0.1",
+  "description": "a fresh ass web management system for git. yr welcome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "coffeescript",
+    "shell",
+    "cool"
+  ],
+  "author": "gstack",
+  "license": "MIT",
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "body-parser": "^1.10.0",
+    "cgi": "^0.3.0",
+    "coffee-script": "^1.8.0",
+    "colors": "^1.0.3",
+    "express": "^4.10.6",
+    "express-session": "^1.9.3",
+    "extend": "^2.0.0",
+    "handlebars": "^2.0.0",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.4",
+    "multer": "^0.1.6",
+    "mysql": "^2.5.4",
+    "season": "^4.0.0",
+    "sequelize": "^2.0.0-rc4",
+    "sequelize-mysql": "^1.7.0",
+    "shelljs": "^0.3.0"
+  }
+}
